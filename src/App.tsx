@@ -1,6 +1,6 @@
 import React from "react";
 import { DataCity, DataProvinsi, DataSubDistrict, DataVillage } from "./api/FetchApi";
-import { Button, Container, Heading, Stack } from "@chakra-ui/react";
+import {  Container, Heading, Stack } from "@chakra-ui/react";
 import FormInput from "./components/FormInput";
 
 interface IData{
@@ -63,7 +63,7 @@ export default class App extends React.Component<IData> {
 
     return (
       <Container h="100vh">
-        <Heading textAlign="center">DATA WILAYAH</Heading>
+        <Heading mt='10' textAlign="center">DATA WILAYAH</Heading>
         <Stack mt={10} rounded="lg" p="6" h="400px" shadow="md">
           <FormInput
             title="Provinces"
