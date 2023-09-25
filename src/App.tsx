@@ -78,7 +78,7 @@ export default class App extends React.Component<IData> {
           data={dataSubDistrict} />
           <FormInput title="Village" data={dataVillage} />
 
-          <Button mt="6">Submit</Button>
+
         </Stack>
       </Container>
     );
